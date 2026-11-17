@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="captura_pantalla.png" alt="Captura de ejemplo de Inkscape Extensions" width="900">
+  <img src="imagenes/captura_revolve3d.png" alt="Captura de ejemplo de Inkscape Extensions" width="900">
 </p>
 
 <p align="center">
@@ -25,9 +25,10 @@
 
 Si estas extensiones te resultan útiles, considera apoyar el desarrollo:
 
-- **PayPal:** [Donar vía PayPal](https://paypal.me/TODO_PAYPAL_PLACEHOLDER) <!-- TODO: reemplazar con el enlace real de PayPal -->
-- **Liberapay:** <a href="https://liberapay.com/BuenasApps/">Apoyar en Liberapay</a> <script src="https://liberapay.com/BuenasApps/widgets/button.js"></script><noscript><a href="https://liberapay.com/BuenasApps/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
-- **Bitcoin:** `TODO_BITCOIN_ADDRESS_PLACEHOLDER` <!-- TODO: reemplazar con la dirección real de Bitcoin -->
+- **PayPal:** [Donar vía PayPal](https://paypal.me/myfinancialfreedom)
+- **Liberapay:** <a href="https://liberapay.com/BuenasApps/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
+- **BTC Lightning:** `lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhkwmr4d4cxz6tjxvcq4f3h98`
+- **BTC:** `bc1q6l6p35ghnrl5lennypu87mt7fuvvpayr9h4h0y`
 
 ---
 
@@ -48,7 +49,7 @@ Si estas extensiones te resultan útiles, considera apoyar el desarrollo:
 Crea formas con apariencia 3D por revolución a partir de trazados en Inkscape.
 
 <p align="center">
-  <img src="captura_pantalla.png" alt="Captura de la extensión Revolve 3D" width="800">
+  <img src="imagenes/captura_revolve3d.png" alt="Captura de la extensión Revolve 3D" width="800">
 </p>
 
 - **Qué hace:** Genera una apariencia 3D tipo revolución/torneado a partir de la geometría seleccionada.
@@ -62,9 +63,10 @@ Crea formas con apariencia 3D por revolución a partir de trazados en Inkscape.
 
 **Apoya esta extensión**
 
-- **PayPal:** [Donar vía PayPal](https://paypal.me/TODO_PAYPAL_PLACEHOLDER) <!-- TODO -->
-- **Liberapay:** <a href="https://liberapay.com/BuenasApps/">Apoyar en Liberapay</a> <script src="https://liberapay.com/BuenasApps/widgets/button.js"></script><noscript><a href="https://liberapay.com/BuenasApps/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
-- **Bitcoin:** `TODO_BITCOIN_ADDRESS_PLACEHOLDER` <!-- TODO -->
+- **PayPal:** [Donar vía PayPal](https://paypal.me/myfinancialfreedom)
+- **Liberapay:** <a href="https://liberapay.com/BuenasApps/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
+- **BTC Lightning:** `lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhkwmr4d4cxz6tjxvcq4f3h98`
+- **BTC:** `bc1q6l6p35ghnrl5lennypu87mt7fuvvpayr9h4h0y`
 
 > **¿Tienes una idea para una extensión?**  
 > Ayúdame a crear más extensiones: [abre un issue](../../issues/new) con tu propuesta y, si este proyecto te resulta útil, considera dejar una donación para apoyarlo.
@@ -75,13 +77,13 @@ Crea formas con apariencia 3D por revolución a partir de trazados en Inkscape.
 
 Vista previa breve de lo que viene.
 
-#### Extensión en desarrollo (placeholder)
+#### Increment (en desarrollo)
 
 <p align="center">
-  <img src="captura_pantalla.png" alt="Captura de extensión en desarrollo" width="420">
+  <img src="imagenes/captura_increment.jpg" alt="Captura de la extensión Increment (en desarrollo)" width="420">
 </p>
 
-_Una nueva extensión para Inkscape está en desarrollo — detalles y tutorial próximamente._
+_Una extensión para incrementar números (y letras) de forma masiva._
 
 ---
 

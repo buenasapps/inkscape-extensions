@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="captura_pantalla.png" alt="Inkscape Extensions screenshot placeholder" width="900">
+  <img src="imagenes/captura_revolve3d.png" alt="Inkscape Extensions screenshot placeholder" width="900">
 </p>
 
 <p align="center">
@@ -25,9 +25,10 @@
 
 If these extensions are useful to you, consider supporting development:
 
-- **PayPal:** [Donate via PayPal](https://paypal.me/TODO_PAYPAL_PLACEHOLDER) <!-- TODO: replace with real PayPal link -->
-- **Liberapay:** <a href="https://liberapay.com/BuenasApps/">Support on Liberapay</a> <script src="https://liberapay.com/BuenasApps/widgets/button.js"></script><noscript><a href="https://liberapay.com/BuenasApps/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
-- **Bitcoin:** `TODO_BITCOIN_ADDRESS_PLACEHOLDER` <!-- TODO: replace with real Bitcoin address -->
+- **PayPal:** [Donate via PayPal](https://paypal.me/myfinancialfreedom)
+- **Liberapay:** <a href="https://liberapay.com/BuenasApps/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
+- **BTC Lightning:** `lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhkwmr4d4cxz6tjxvcq4f3h98`
+- **BTC:** `bc1q6l6p35ghnrl5lennypu87mt7fuvvpayr9h4h0y`
 
 ---
 
@@ -48,7 +49,7 @@ If these extensions are useful to you, consider supporting development:
 Create 3D-like revolved shapes from paths in Inkscape.
 
 <p align="center">
-  <img src="captura_pantalla.png" alt="Revolve 3D extension screenshot" width="800">
+  <img src="imagenes/captura_revolve3d.png" alt="Revolve 3D extension screenshot" width="800">
 </p>
 
 - **What it does:** Generates a revolved/lathe-style 3D appearance from selected geometry.
@@ -62,9 +63,10 @@ Create 3D-like revolved shapes from paths in Inkscape.
 
 **Support this extension**
 
-- **PayPal:** [Donate via PayPal](https://paypal.me/TODO_PAYPAL_PLACEHOLDER) <!-- TODO -->
-- **Liberapay:** <a href="https://liberapay.com/BuenasApps/">Support on Liberapay</a> <script src="https://liberapay.com/BuenasApps/widgets/button.js"></script><noscript><a href="https://liberapay.com/BuenasApps/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
-- **Bitcoin:** `TODO_BITCOIN_ADDRESS_PLACEHOLDER` <!-- TODO -->
+- **PayPal:** [Donate via PayPal](https://paypal.me/myfinancialfreedom)
+- **Liberapay:** <a href="https://liberapay.com/BuenasApps/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
+- **BTC Lightning:** `lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhkwmr4d4cxz6tjxvcq4f3h98`
+- **BTC:** `bc1q6l6p35ghnrl5lennypu87mt7fuvvpayr9h4h0y`
 
 > **Have an idea for an extension?**  
 > Help me create more extensions: [open an issue](../../issues/new) with your proposal and, if this project is useful to you, consider leaving a donation to support it.
@@ -75,13 +77,13 @@ Create 3D-like revolved shapes from paths in Inkscape.
 
 Smaller preview of what's coming next.
 
-#### WIP Extension (placeholder)
+#### Increment (WIP)
 
 <p align="center">
-  <img src="captura_pantalla.png" alt="Work in progress extension screenshot" width="420">
+  <img src="imagenes/captura_increment.jpg" alt="Increment extension screenshot (work in progress)" width="420">
 </p>
 
-_A new Inkscape extension is currently in development — details and tutorial coming soon._
+_An upcoming extension to increment numbers (and letters) in bulk._
 
 ---
 
