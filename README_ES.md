@@ -57,13 +57,13 @@ Crea formas con apariencia 3D por revolución a partir de trazados en Inkscape.
 - **Tutorial:** [tutorial_revolve-3d.md](tutorial_revolve-3d.md) _(tutorial pendiente de añadir)_
 
 **Inicio rápido**
-1. Entra en la carpeta de la extensión: [`revolve3d`](revolve3d/).
+1. Abre la carpeta de la extensión en este repositorio: [`revolve3d`](revolve3d/).
 2. Descarga el archivo ZIP que hay dentro: [`revolve3d.zip`](revolve3d/revolve3d.zip).
 3. Descomprime los archivos en la carpeta de extensiones de Inkscape: puedes extraer los archivos sueltos o, **recomendado**, dejarlos como una subcarpeta dentro de esa ruta.
 4. Reinicia Inkscape.
 5. Busca la extensión en el menú y ejecútala sobre tu selección.
 
-**Apoya esta extensión**
+**Apoya mi trabajo**
 
 - **PayPal:** [Donar vía PayPal](https://paypal.me/myfinancialfreedom)
 - **Liberapay:** <a href="https://liberapay.com/BuenasApps/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
