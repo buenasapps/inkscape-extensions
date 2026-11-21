@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 3D Revolve 1.0 - Copyright (C) 2026 tebicap - GPL-2.0-or-later (see LICENSE) -->
+<inkscape-extension translationdomain="revolve3d" xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <name>3D Revolve…</name>
+  <id>org.revolve3d.effect</id>
+  <param name="tab" type="notebook">
+
+    <page name="geometry" gui-text="Geometry">
+      <param name="action" type="optiongroup" appearance="combo" gui-text="Action:"
+             gui-description="Apply: creates or updates the effect with these values. Restore: re-applies it with the saved values (stored in the group, or in the path you removed the effect from). Remove: gives back the original path and saves the values on it. Transfer: copies the effect of the first/last selected object onto the other selected objects (does nothing if there is only one object or it has no effect). Show: prints the saved values of the selected objects without changing anything.">
+        <option value="apply">Apply/update</option>
+        <option value="reapply">Restore effect</option>
+        <option value="restore">Remove effect</option>
+        <option value="show">Show values</option>
+        <option value="transfer_first">Transfer from first selected</option>
+        <option value="transfer_last">Transfer from last selected</option>
+      </param>
+      <param name="axis_side" type="optiongroup" appearance="combo" gui-text="Axis at profile edge:"
+             gui-description="Edge of the profile where the axis of revolution is placed.">
+        <option value="left">Left of profile</option>
+        <option value="right">Right of profile</option>
+      </param>
+      <param name="axis_offset" type="float" min="-10000" max="10000" precision="2" gui-text="Axis offset (px):"
+             gui-description="Moves the axis away from the profile. Above 0 the solid is hollow inside. Default: 0 px.">0</param>
+      <param name="sweep" type="float" appearance="full" min="1" max="360" precision="1" gui-text="Revolve angle (°):"
+             gui-description="How far the profile turns. 360° gives the full solid; less gives a wedge. Default: 360°.">360</param>
+      <param name="start_angle" type="float" min="-360" max="360" precision="1" gui-text="Start angle (°):"
+             gui-description="Where the turn starts. Mostly visible on wedges (under 360°). Default: 0°.">0</param>
+      <param name="cap" type="bool" gui-text="Caps on open ends"
+             gui-description="Closes the open ends of the profile with a flat cap. Default: on.">true</param>
+      <param name="sides" type="optiongroup" appearance="combo" gui-text="Surface:"
+             gui-description="Solid: hides the back side (lighter). Both sides: also draws the inside of open surfaces. Default: Solid.">
+        <option value="auto">Solid (hide back faces)</option>
+        <option value="both">Both sides (for open surfaces)</option>
+      </param>
+    </page>
+
+    <page name="view" gui-text="View">
+      <param name="rot_x" type="float" appearance="full" min="-180" max="180" precision="1" gui-text="Rotation X (°):"
+             gui-description="Tilts the object forward or backward, to see more of its top or bottom. Default: 20°.">20</param>
+      <param name="rot_y" type="float" appearance="full" min="-180" max="180" precision="1" gui-text="Rotation Y (°):"
+             gui-description="Turns the object around its vertical axis. Barely noticeable on a full revolution. Default: 0°.">0</param>
+      <param name="rot_z" type="float" appearance="full" min="-180" max="180" precision="1" gui-text="Rotation Z (°):"
+             gui-description="Tilts the object left or right, like a wheel. Default: 0°.">0</param>
+      <param name="perspective" type="float" appearance="full" min="0" max="100" precision="0" gui-text="Perspective (%):"
+             gui-description="0 = no perspective (technical drawing). Higher = camera closer: near parts look bigger. Default: 0 %.">0</param>
+    </page>
+
+    <page name="shading" gui-text="Shading">
+      <param name="shading" type="optiongroup" appearance="combo" gui-text="Shading:"
+             gui-description="Smooth: gradients that give volume. No shading: each face a single color. Default: Smooth.">
+        <option value="smooth">Smooth (gradients)</option>
+        <option value="none">No shading</option>
+      </param>
+      <param name="light_az" type="float" min="-180" max="180" precision="0" gui-text="Light: azimuth (°):"
+             gui-description="Which side the light comes from: negative = left, positive = right. Default: -40°.">-40</param>
+      <param name="light_el" type="float" min="-90" max="90" precision="0" gui-text="Light: elevation (°):"
+             gui-description="Height of the light: 90° from above, 0° from the side. Default: 40°.">40</param>
+      <param name="ambient" type="float" min="0" max="100" precision="0" gui-text="Ambient light (%):"
+             gui-description="Base light that also reaches shaded areas. Default: 35 %.">35</param>
+      <param name="highlight" type="float" min="0" max="100" precision="0" gui-text="Specular highlight (%):"
+             gui-description="Intensity of the shiny reflection on the brightest area. Default: 25 %.">25</param>
+      <hbox>
+        <param name="fallback_fill" type="color" appearance="colorbutton" gui-text="Color:"
+               gui-description="Color of the solid. Used if the path has no fill, or always if Force is checked. Default: #4f9da6 (teal).">1335731967</param>
+        <param name="force_color" type="bool" gui-text="Force"
+               gui-description="Paints with this color even if the original path already has a fill. Default: off.">false</param>
+      </hbox>
+    </page>
+
+    <page name="quality" gui-text="Quality">
+      <param name="profile_detail" type="int" min="2" max="64" gui-text="Max bands per curve:"
+             gui-description="Cap on the bands used in each curve of the profile. Default: 24.">24</param>
+      <param name="band_step" type="float" min="1" max="30" precision="1" gui-text="Angle between bands (°):"
+             gui-description="How much the curve may turn between one band and the next. Fewer degrees = smoother shading, but more objects. Default: 5°.">5</param>
+      <param name="angular_segments" type="int" min="8" max="120" gui-text="Segments per turn:"
+             gui-description="Divisions of a full turn. More segments = rounder outlines. Default: 28.">28</param>
+      <param name="grad_quality" type="optiongroup" appearance="combo" gui-text="Gradient stops:"
+             gui-description="How many color stops each gradient has. More stops = more faithful, but a heavier file. Default: Normal.">
+        <option value="low">Few</option>
+        <option value="normal">Normal</option>
+        <option value="high">Many</option>
+      </param>
+      <hbox>
+        <param name="seam_fix" type="bool" gui-text="Hide seams (stroke)"
+               gui-description="Avoids thin lines between bands by adding a very thin stroke of the same gradient. Default: on.">true</param>
+        <param name="seam_width" type="float" min="0" max="5" precision="2" gui-text=""
+               gui-description="Stroke width, in px. With 0 no stroke is drawn (thin lines may show between bands). Default: 0.2 px.">0.2</param>
+      </hbox>
+    </page>
+
+  </param>
+
+  <effect needs-live-preview="true">
+    <object-type>all</object-type>
+    <effects-menu>
+      <submenu name="3D effects"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command location="inx" interpreter="python">revolve3d.py</command>
+  </script>
+</inkscape-extension>

@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: revolve3d 1.0\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "\"Restore effect\" needs a revolve group or a path whose effect was removed."
+msgstr "«Restaurar efecto» necesita un grupo de revolución o un trazado al que se le quitó el efecto."
+
+msgid "0 = no perspective (technical drawing). Higher = camera closer: near parts look bigger. Default: 0 %."
+msgstr "0 = sin perspectiva (dibujo técnico). Más alto = cámara más cerca: lo cercano se ve más grande. Por defecto: 0 %."
+
+msgid "3D Revolve"
+msgstr "Revolución 3D"
+
+msgid "3D Revolve — saved values"
+msgstr "Revolución 3D — valores guardados"
+
+msgid "Action:"
+msgstr "Acción:"
+
+msgid "Ambient light (%):"
+msgstr "Luz ambiente (%):"
+
+msgid "Angle between bands (°):"
+msgstr "Ángulo entre bandas (°):"
+
+msgid "Apply/update"
+msgstr "Aplicar/actualizar"
+
+msgid "Apply: creates or updates the effect with these values. Restore: re-applies it with the saved values (stored in the group, or in the path you removed the effect from). Remove: gives back the original path and saves the values on it. Transfer: copies the effect of the first/last selected object onto the other selected objects (does nothing if there is only one object or it has no effect). Show: prints the saved values of the selected objects without changing anything."
+msgstr "Aplicar: crea o actualiza el efecto con estos valores. Restaurar: lo vuelve a aplicar con los valores guardados (en el grupo, o en el trazado al que le quitaste el efecto). Quitar: devuelve el trazado original y guarda en él los valores. Transferir: copia el efecto del primer/último objeto seleccionado a los demás seleccionados (no hace nada si hay un solo objeto o no tiene efecto). Mostrar: imprime los valores guardados de los objetos seleccionados sin cambiar nada."
+
+msgid "Avoids thin lines between bands by adding a very thin stroke of the same gradient. Default: on."
+msgstr "Evita las líneas finas entre bandas añadiendo un trazo muy fino del mismo degradado. Por defecto: activado."
+
+msgid "Axis at profile edge:"
+msgstr "Eje de giro en el borde:"
+
+msgid "Axis offset (px):"
+msgstr "Separación del eje (px):"
+
+msgid "Base light that also reaches shaded areas. Default: 35 %."
+msgstr "Luz base que también alcanza las zonas en sombra. Por defecto: 35 %."
+
+msgid "Both sides (for open surfaces)"
+msgstr "Ambos lados (para superficies abiertas)"
+
+msgid "Cap on the bands used in each curve of the profile. Default: 24."
+msgstr "Tope de bandas que se usan en cada curva del perfil. Por defecto: 24."
+
+msgid "Caps on open ends"
+msgstr "Tapas en los extremos abiertos"
+
+msgid "Closes the open ends of the profile with a flat cap. Default: on."
+msgstr "Cierra con una tapa plana los extremos abiertos del perfil. Por defecto: activado."
+
+msgid "Color of the solid. Used if the path has no fill, or always if Force is checked. Default: #4f9da6 (teal)."
+msgstr "Color del sólido. Se usa si el trazo no tiene relleno, o siempre si marcas Forzar. Por defecto: #4f9da6 (verde azulado)."
+
+msgid "Color:"
+msgstr "Color:"
+
+msgid "Divisions of a full turn. More segments = rounder outlines. Default: 28."
+msgstr "Divisiones de una vuelta completa. Más segmentos = contornos más redondos. Por defecto: 28."
+
+msgid "Edge of the profile where the axis of revolution is placed."
+msgstr "Borde del perfil donde se coloca el eje alrededor del cual gira."
+
+msgid "Few"
+msgstr "Pocas"
+
+msgid "Force"
+msgstr "Forzar"
+
+msgid "Geometry"
+msgstr "Geometría"
+
+msgid "Gradient stops:"
+msgstr "Paradas de degradado:"
+
+msgid "Height of the light: 90° from above, 0° from the side. Default: 40°."
+msgstr "Altura de la luz: 90° desde arriba, 0° de costado. Por defecto: 40°."
+
+msgid "Hide seams (stroke)"
+msgstr "Disimular costuras (trazo)"
+
+msgid "How far the profile turns. 360° gives the full solid; less gives a wedge. Default: 360°."
+msgstr "Cuánto gira el perfil. 360° da el sólido completo; menos, una cuña. Por defecto: 360°."
+
+msgid "How many color stops each gradient has. More stops = more faithful, but a heavier file. Default: Normal."
+msgstr "Cuántas paradas de color lleva cada degradado. Más paradas = más fiel, pero archivo más pesado. Por defecto: Normal."
+
+msgid "How much the curve may turn between one band and the next. Fewer degrees = smoother shading, but more objects. Default: 5°."
+msgstr "Cuánto puede girar la curva entre una banda y la siguiente. Menos grados = sombreado más suave, pero más objetos. Por defecto: 5°."
+
+msgid "Intensity of the shiny reflection on the brightest area. Default: 25 %."
+msgstr "Intensidad del reflejo brillante en la zona más iluminada. Por defecto: 25 %."
+
+msgid "Left of profile"
+msgstr "Izquierdo del perfil"
+
+msgid "Light: azimuth (°):"
+msgstr "Luz: azimut (°):"
+
+msgid "Light: elevation (°):"
+msgstr "Luz: elevación (°):"
+
+msgid "Many"
+msgstr "Muchas"
+
+msgid "Max bands per curve:"
+msgstr "Máx. bandas por curva:"
+
+msgid "Moves the axis away from the profile. Above 0 the solid is hollow inside. Default: 0 px."
+msgstr "Aleja el eje del perfil. Con un valor mayor que 0 el sólido queda hueco por dentro. Por defecto: 0 px."
+
+msgid "No saved values found. Select a 3D Revolve group, or a path whose effect was removed."
+msgstr "No se encontraron valores guardados. Selecciona un grupo de Revolución 3D, o un trazado al que se le quitó el efecto."
+
+msgid "No shading"
+msgstr "Sin sombreado"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Object: %s"
+msgstr "Objeto: %s"
+
+msgid "Paints with this color even if the original path already has a fill. Default: off."
+msgstr "Pinta con este color aunque el trazo original ya tenga relleno. Por defecto: desactivado."
+
+msgid "Perspective (%):"
+msgstr "Perspectiva (%):"
+
+msgid "Quality"
+msgstr "Calidad"
+
+msgid "Remove effect"
+msgstr "Quitar efecto"
+
+msgid "Restore effect"
+msgstr "Restaurar efecto"
+
+msgid "Revolve angle (°):"
+msgstr "Ángulo de revolución (°):"
+
+msgid "Right of profile"
+msgstr "Derecho del perfil"
+
+msgid "Rotation X (°):"
+msgstr "Rotación X (°):"
+
+msgid "Rotation Y (°):"
+msgstr "Rotación Y (°):"
+
+msgid "Rotation Z (°):"
+msgstr "Rotación Z (°):"
+
+msgid "Seam width (px):"
+msgstr "Grosor de costura (px):"
+
+msgid "Segments per turn:"
+msgstr "Segmentos por vuelta:"
+
+msgid "Select a path (the profile) or a revolve group."
+msgstr "Selecciona un trazado (el perfil) o un grupo de revolución."
+
+msgid "Shading"
+msgstr "Sombreado"
+
+msgid "Shading:"
+msgstr "Sombreado:"
+
+msgid "Show values"
+msgstr "Mostrar valores"
+
+msgid "Smooth (gradients)"
+msgstr "Suave (degradados)"
+
+msgid "Smooth: gradients that give volume. No shading: each face a single color. Default: Smooth."
+msgstr "Suave: degradados que dan volumen. Sin sombreado: cada cara de un solo color. Por defecto: Suave."
+
+msgid "Solid (hide back faces)"
+msgstr "Sólido (oculta caras traseras)"
+
+msgid "Solid: hides the back side (lighter). Both sides: also draws the inside of open surfaces. Default: Solid."
+msgstr "Sólido: oculta la parte trasera (más ligero). Ambos lados: dibuja también el interior de superficies abiertas. Por defecto: Sólido."
+
+msgid "Specular highlight (%):"
+msgstr "Brillo especular (%):"
+
+msgid "Start angle (°):"
+msgstr "Ángulo inicial (°):"
+
+msgid "Stroke width, in px. With 0 no stroke is drawn (thin lines may show between bands). Default: 0.2 px."
+msgstr "Grosor del trazo, en px. Con 0 no se dibuja trazo (pueden verse líneas finas entre bandas). Por defecto: 0.2 px."
+
+msgid "Surface:"
+msgstr "Superficie:"
+
+msgid "The group does not contain the original profile."
+msgstr "El grupo no contiene el perfil original."
+
+msgid "The group does not contain the original profile; it cannot be updated."
+msgstr "El grupo no contiene el perfil original; no se puede actualizar."
+
+msgid "The profile does not have enough segments."
+msgstr "El perfil no tiene segmentos suficientes."
+
+msgid "The profile must be a path or a shape (rectangle, ellipse, polygon…)."
+msgstr "El perfil debe ser un trazado o una forma (rectángulo, elipse, polígono…)."
+
+msgid "The selected object is neither a path nor a basic shape."
+msgstr "El objeto seleccionado no es un trazado ni una forma básica."
+
+msgid "There was nothing to process with the chosen action."
+msgstr "No había nada que procesar con la acción elegida."
+
+msgid "Tilts the object forward or backward, to see more of its top or bottom. Default: 20°."
+msgstr "Inclina el objeto hacia adelante o hacia atrás, para ver más su parte de arriba o de abajo. Por defecto: 20°."
+
+msgid "Tilts the object left or right, like a wheel. Default: 0°."
+msgstr "Inclina el objeto hacia la izquierda o la derecha, como una rueda. Por defecto: 0°."
+
+msgid "Transfer from first selected"
+msgstr "Transferir desde el primero seleccionado"
+
+msgid "Transfer from last selected"
+msgstr "Transferir desde el último seleccionado"
+
+msgid "Turns the object around its vertical axis. Barely noticeable on a full revolution. Default: 0°."
+msgstr "Gira el objeto sobre su eje vertical. En un giro completo apenas se nota. Por defecto: 0°."
+
+msgid "View"
+msgstr "Vista"
+
+msgid "Where the turn starts. Mostly visible on wedges (under 360°). Default: 0°."
+msgstr "Dónde empieza el giro. Se nota sobre todo en cuñas (menos de 360°). Por defecto: 0°."
+
+msgid "Which side the light comes from: negative = left, positive = right. Default: -40°."
+msgstr "De qué lado llega la luz: negativo = izquierda, positivo = derecha. Por defecto: -40°."
+
+msgid "effect active (group)"
+msgstr "efecto activo (grupo)"
+
+msgid "effect removed (values saved on the path)"
+msgstr "efecto quitado (valores guardados en el trazado)"
+
+msgid "off"
+msgstr "desactivado"
+
+msgid "on"
+msgstr "activado"
+

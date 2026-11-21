@@ -1,0 +1,256 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: revolve3d 1.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "\"Restore effect\" needs a revolve group or a path whose effect was removed."
+msgstr ""
+
+msgid "0 = no perspective (technical drawing). Higher = camera closer: near parts look bigger. Default: 0 %."
+msgstr ""
+
+msgid "3D Revolve"
+msgstr ""
+
+msgid "3D Revolve — saved values"
+msgstr ""
+
+msgid "Action:"
+msgstr ""
+
+msgid "Ambient light (%):"
+msgstr ""
+
+msgid "Angle between bands (°):"
+msgstr ""
+
+msgid "Apply/update"
+msgstr ""
+
+msgid "Apply: creates or updates the effect with these values. Restore: re-applies it with the saved values (stored in the group, or in the path you removed the effect from). Remove: gives back the original path and saves the values on it. Transfer: copies the effect of the first/last selected object onto the other selected objects (does nothing if there is only one object or it has no effect). Show: prints the saved values of the selected objects without changing anything."
+msgstr ""
+
+msgid "Avoids thin lines between bands by adding a very thin stroke of the same gradient. Default: on."
+msgstr ""
+
+msgid "Axis at profile edge:"
+msgstr ""
+
+msgid "Axis offset (px):"
+msgstr ""
+
+msgid "Base light that also reaches shaded areas. Default: 35 %."
+msgstr ""
+
+msgid "Both sides (for open surfaces)"
+msgstr ""
+
+msgid "Cap on the bands used in each curve of the profile. Default: 24."
+msgstr ""
+
+msgid "Caps on open ends"
+msgstr ""
+
+msgid "Closes the open ends of the profile with a flat cap. Default: on."
+msgstr ""
+
+msgid "Color of the solid. Used if the path has no fill, or always if Force is checked. Default: #4f9da6 (teal)."
+msgstr ""
+
+msgid "Color:"
+msgstr ""
+
+msgid "Divisions of a full turn. More segments = rounder outlines. Default: 28."
+msgstr ""
+
+msgid "Edge of the profile where the axis of revolution is placed."
+msgstr ""
+
+msgid "Few"
+msgstr ""
+
+msgid "Force"
+msgstr ""
+
+msgid "Geometry"
+msgstr ""
+
+msgid "Gradient stops:"
+msgstr ""
+
+msgid "Height of the light: 90° from above, 0° from the side. Default: 40°."
+msgstr ""
+
+msgid "Hide seams (stroke)"
+msgstr ""
+
+msgid "How far the profile turns. 360° gives the full solid; less gives a wedge. Default: 360°."
+msgstr ""
+
+msgid "How many color stops each gradient has. More stops = more faithful, but a heavier file. Default: Normal."
+msgstr ""
+
+msgid "How much the curve may turn between one band and the next. Fewer degrees = smoother shading, but more objects. Default: 5°."
+msgstr ""
+
+msgid "Intensity of the shiny reflection on the brightest area. Default: 25 %."
+msgstr ""
+
+msgid "Left of profile"
+msgstr ""
+
+msgid "Light: azimuth (°):"
+msgstr ""
+
+msgid "Light: elevation (°):"
+msgstr ""
+
+msgid "Many"
+msgstr ""
+
+msgid "Max bands per curve:"
+msgstr ""
+
+msgid "Moves the axis away from the profile. Above 0 the solid is hollow inside. Default: 0 px."
+msgstr ""
+
+msgid "No saved values found. Select a 3D Revolve group, or a path whose effect was removed."
+msgstr ""
+
+msgid "No shading"
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Object: %s"
+msgstr ""
+
+msgid "Paints with this color even if the original path already has a fill. Default: off."
+msgstr ""
+
+msgid "Perspective (%):"
+msgstr ""
+
+msgid "Quality"
+msgstr ""
+
+msgid "Remove effect"
+msgstr ""
+
+msgid "Restore effect"
+msgstr ""
+
+msgid "Revolve angle (°):"
+msgstr ""
+
+msgid "Right of profile"
+msgstr ""
+
+msgid "Rotation X (°):"
+msgstr ""
+
+msgid "Rotation Y (°):"
+msgstr ""
+
+msgid "Rotation Z (°):"
+msgstr ""
+
+msgid "Seam width (px):"
+msgstr ""
+
+msgid "Segments per turn:"
+msgstr ""
+
+msgid "Select a path (the profile) or a revolve group."
+msgstr ""
+
+msgid "Shading"
+msgstr ""
+
+msgid "Shading:"
+msgstr ""
+
+msgid "Show values"
+msgstr ""
+
+msgid "Smooth (gradients)"
+msgstr ""
+
+msgid "Smooth: gradients that give volume. No shading: each face a single color. Default: Smooth."
+msgstr ""
+
+msgid "Solid (hide back faces)"
+msgstr ""
+
+msgid "Solid: hides the back side (lighter). Both sides: also draws the inside of open surfaces. Default: Solid."
+msgstr ""
+
+msgid "Specular highlight (%):"
+msgstr ""
+
+msgid "Start angle (°):"
+msgstr ""
+
+msgid "Stroke width, in px. With 0 no stroke is drawn (thin lines may show between bands). Default: 0.2 px."
+msgstr ""
+
+msgid "Surface:"
+msgstr ""
+
+msgid "The group does not contain the original profile."
+msgstr ""
+
+msgid "The group does not contain the original profile; it cannot be updated."
+msgstr ""
+
+msgid "The profile does not have enough segments."
+msgstr ""
+
+msgid "The profile must be a path or a shape (rectangle, ellipse, polygon…)."
+msgstr ""
+
+msgid "The selected object is neither a path nor a basic shape."
+msgstr ""
+
+msgid "There was nothing to process with the chosen action."
+msgstr ""
+
+msgid "Tilts the object forward or backward, to see more of its top or bottom. Default: 20°."
+msgstr ""
+
+msgid "Tilts the object left or right, like a wheel. Default: 0°."
+msgstr ""
+
+msgid "Transfer from first selected"
+msgstr ""
+
+msgid "Transfer from last selected"
+msgstr ""
+
+msgid "Turns the object around its vertical axis. Barely noticeable on a full revolution. Default: 0°."
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Where the turn starts. Mostly visible on wedges (under 360°). Default: 0°."
+msgstr ""
+
+msgid "Which side the light comes from: negative = left, positive = right. Default: -40°."
+msgstr ""
+
+msgid "effect active (group)"
+msgstr ""
+
+msgid "effect removed (values saved on the path)"
+msgstr ""
+
+msgid "off"
+msgstr ""
+
+msgid "on"
+msgstr ""
+
