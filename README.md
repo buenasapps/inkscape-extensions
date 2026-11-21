@@ -57,9 +57,11 @@ Create 3D-like revolved shapes from paths in Inkscape.
 - **Tutorial:** [tutorial_revolve-3d.md](tutorial_revolve-3d.md) _(tutorial to be added)_
 
 **Quick start**
-1. Download/copy the extension files into your Inkscape extensions folder.
-2. Restart Inkscape.
-3. Find the extension in the menu and run it on your selection.
+1. Open the extension folder: [`revolve3d`](revolve3d/).
+2. Download the ZIP file inside it: [`revolve3d.zip`](revolve3d/revolve3d.zip).
+3. Unzip it into your Inkscape extensions folder — you can extract the loose files or, **recommended**, keep them as a subfolder inside that path.
+4. Restart Inkscape.
+5. Find the extension in the menu and run it on your selection.
 
 **Support this extension**
 
