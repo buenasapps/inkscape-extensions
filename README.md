@@ -30,6 +30,13 @@ If these extensions are useful to you, consider supporting development:
 - **BTC Lightning:** `lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhkwmr4d4cxz6tjxvcq4f3h98`
 - **BTC:** `bc1q6l6p35ghnrl5lennypu87mt7fuvvpayr9h4h0y`
 
+    If you'd like to help fund the development, please consider making a donation and then send me an email letting me know you are donating for this extensions (buenasapps@yahoo.com) (Donations are not payments for goods or services. All donations are final and non-refundable.)
+    <img src="imagenes/barra_progreso_donaciones_extension3D_barra_progreso.png" alt="Donations progress bar" width="800">
+    Donated this month (progress bar is manually updated).
+    
+    I want to create a set of three 3D extensions for Inkscape. The first one, Revolve 3D, has already been created. Now, it would be great to develop an Extrude 3D extension that also supports text objects, and a third extension that simply applies a 3D perspective. All three extensions will be non-destructive.
+    <img src="imagenes/barra_progreso_donaciones_extension3D_extension_reference_extrude.png" alt="Extrude 3D extension idea" width="800">
+
 ---
 
 ## What's new
